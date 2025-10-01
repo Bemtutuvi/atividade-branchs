@@ -155,3 +155,59 @@ footer nav ul {
   transform: translateY(-5px);
   box-shadow: 0px 8px 12px rgba(0,0,0,0.2);
 }
+/* --- Estilo do Conteúdo Principal --- */
+main h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+main p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* --- Seções sobre coelhos --- */
+main section {
+  background: #fafafa;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+main section h3 {
+  font-size: 22px;
+  color: #2c7a3f; /* verde suave para remeter à natureza */
+  margin-bottom: 10px;
+}
+
+main section p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* --- Lista de curiosidades --- */
+main section ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+main section ul li {
+  margin-bottom: 8px;
+  color: #444;
+  font-size: 15px;
+  position: relative;
+}
+
+/* Adiciona um marcador estilizado (um coelhinho 🐇 ou bolinha verde) */
+main section ul li::before {
+  content: "🐇";
+  position: absolute;
+  left: -25px;
+}
