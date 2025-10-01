@@ -123,8 +123,8 @@ footer nav ul {
 }
 
 .card {
-  background: #f5f5f5;
-  border-radius: 10px;
+  background: #fefefe;
+  border-radius: 12px;
   padding: 20px;
   box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s, box-shadow 0.2s;
@@ -132,22 +132,30 @@ footer nav ul {
 
 .card h3 {
   margin-top: 0;
+  font-size: 20px;
+  color: #2c7a3f;
+}
+
+.card p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.5;
 }
 
 .card a {
   display: inline-block;
   margin-top: 10px;
-  color: #333;
+  color: #2c7a3f;
   font-weight: bold;
   text-decoration: none;
-  border: 1px solid #333;
-  padding: 5px 10px;
-  border-radius: 5px;
+  border: 1px solid #2c7a3f;
+  padding: 6px 12px;
+  border-radius: 6px;
   transition: 0.3s;
 }
 
 .card a:hover {
-  background: #333;
+  background: #2c7a3f;
   color: white;
 }
 
@@ -155,6 +163,7 @@ footer nav ul {
   transform: translateY(-5px);
   box-shadow: 0px 8px 12px rgba(0,0,0,0.2);
 }
+
 /* --- Estilo do Conteúdo Principal --- */
 main h2 {
   font-size: 28px;
